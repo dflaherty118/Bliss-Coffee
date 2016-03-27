@@ -1,0 +1,183 @@
+
+body {
+	margin: 0;
+	padding: 0;}
+
+.navigation { 
+	background: url("../images/bg-navigation.png") repeat;  
+	/*float: left;
+	padding-bottom: 15px;*/
+	position: fixed;
+	width: 100%;}
+
+.row {
+	/*overflow: hidden;
+	width: 100%;
+	max-width: 1220px;
+	margin: 0 auto;*/
+}
+
+.navigation nav { 
+	float: left; 
+	padding-left: 25px; 
+	width: 73%; }
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	font-family: georgia, sans-serif;
+	font-weight: 400;
+	font-size: 	13px;
+	float: left;
+	padding-right: 10px;
+	margin-left: 20px
+}
+
+.social { float: left; width: 20%; text-align: right;}
+.social ul { padding: 0;  }
+.social ul li { display: inline-block; }
+.social a { display: block;}
+
+
+
+.facebook {
+	background: url("../images/icons-facebook.png") no-repeat 0px -3px;
+	height: 14px;
+	width: 14px;	
+}
+
+.foursquare {
+	background: url("../images/icons-foursquare.png") no-repeat 0px -2px;
+	height: 14px;
+	width: 17px;	
+}
+
+.twitter {
+	background: url("../images/icons-twitter.png") no-repeat 0px -2px;
+	height: 14px;
+	width: 18px;
+}
+
+
+
+.home {
+ 	background-size: cover;
+	/*background-image: url("../images/bliss coffee large.jpg");*/
+	background-position:50% -100px;
+	background-attachment: fixed; 
+	min-height: 700px;	
+}
+
+.main {
+	padding: 5%; 
+	overflow:hidden;
+	padding-top: 75px;
+	margin-bottom: 75px;
+	
+}
+
+.twocol {
+	float: left; 
+	width: 13.45%; 
+	margin-right: 3.7%%;
+	padding: 20px 0 0 25px; 
+	font-size: 12px;
+	line-height: 22px;
+	font-family: arial;}
+
+.sixcol{
+	width: 45%; 
+	float: left; 
+	margin-right: 3.7%;
+}
+
+.threecol {
+	/*background-image: url("../images/plant.jpg");*/
+	width: 28.05%; 
+	float: left; 
+	margin-right: 0%;
+	/*width: 320px;
+	height: 320px;*/
+}
+
+.ninecol {
+	/*background-image: url("../images/plant.jpg");*/
+	/*float: left; */
+	margin-left: 17.54%;
+	width: 842px;
+	margin-right: 0;
+	clear:both;
+	padding-top: 50px;
+}
+
+.footer {
+	background: url("../images/bg-navigation.png") repeat;
+	margin: 0;
+	padding: 15px 0 0px;
+	clear: both;
+	width: 100%;
+	}
+
+.footer p {
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	color: white;
+	padding: 12px 5 30px;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+
+
+/* 	
+==============================
+Typography 
+============================== */	
+html, body {
+	font-family: georgia;
+	font-style: normal;
+	font-size: 100%;
+	font-weight: 300;
+	color: #666;
+	
+}	
+
+p {
+	font-family: georgia;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+
+h2 {
+	font-size: 25px;
+	/*line-height: 32px;*/
+	padding-bottom: 5px;
+	font-family: times;
+	font-style: normal;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*
+********************
+  miscellaneous
+********************
+*/
+
+a {
+	color: #C9C9C9;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
